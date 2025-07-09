@@ -1,0 +1,13 @@
+__p*
+__pycache__
+.pyt*
+*.csv
+*.txt
+structure.py
+_LIB/
+_Page.py
+run.bat
+Count.py
+Pages_locators/
+pytest.ini
+imgesForScripts/
