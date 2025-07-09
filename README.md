@@ -1,4 +1,5 @@
 # LinkedInJobTracker-AutomationProject
 
-https://github.com/user-attachments/assets/54c9b45e-eed3-4da3-8da4-5f2d3c795015
 
+
+[Screencast_AutomationProjct.webm](https://github.com/user-attachments/assets/53ba4a12-2383-441b-9ae6-14252314e1f0)
