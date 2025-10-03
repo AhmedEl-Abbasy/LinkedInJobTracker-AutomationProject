@@ -16,19 +16,19 @@ def test_searchForJob():
     print("searchForJob")
 
     # time.sleep(30)
-    pointForimg = pyautogui.locateOnScreen("imgesForScripts/jobIcon.png")
+    pointForimg = pyautogui.locateOnScreen("imgesForScripts/jobIcon.png" , confidence=0.8)
     pyautogui.moveTo(pyautogui.center(pointForimg))
 
     pyautogui.click(pyautogui.center(pointForimg))    
     
-    pyautogui.sleep(3)
-    pointForimg = pyautogui.locateOnScreen("imgesForScripts/locationIcon.png")
+    pyautogui.sleep(5)
+    pointForimg = pyautogui.locateOnScreen("imgesForScripts/locationIcon.png" , confidence=0.8)
     pyautogui.click(pyautogui.center(pointForimg))
     pyautogui.hotkey('ctrl', 'a')
     pyautogui.write("Egypt")
 
     pyautogui.sleep(0.5)
-    pointForimg = pyautogui.locateOnScreen("imgesForScripts/searchIcon.png")
+    pointForimg = pyautogui.locateOnScreen("imgesForScripts/searchIcon.png" , confidence=0.8)
     pyautogui.click(pyautogui.center(pointForimg))
     pyautogui.write("Test Automation")
     pyautogui.sleep(1)
